@@ -1,6 +1,6 @@
 # Code your solution here!
 def generate_number 
-  rand(1...7)
+  number = rand(1...7)
 end 
 
 def prompt_user
@@ -12,8 +12,6 @@ def get_user_input
 end
 
 def compare_input ()
-  prompt_user 
-  input = get_user_input
   if input == 'h' then
     card_total += deal_card  
     elsif input == 's' then
