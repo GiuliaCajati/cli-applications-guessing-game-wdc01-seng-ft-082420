@@ -16,10 +16,7 @@ def compare_input (number)
     "You guessed the correct number!"
     elsif input =! number then
       "Sorry! The computer guessed <number>."
-      else
-      invalid_command 
-      prompt_user
-	    get_user_input 
+      elsif input = "exit" then 
+      "Goodbye!"
   end 
-  card_total
 end
