@@ -1,6 +1,6 @@
 # Code your solution here!
 def generate_number 
-  number = rand(1...7)
+  wining_number = rand(1...7)
 end 
 
 def prompt_user
