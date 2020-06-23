@@ -11,7 +11,7 @@ def get_user_input
   gets.chomp
 end
 
-def compare_input ()
+def compare_input (number)
   if input == 'h' then
     card_total += deal_card  
     elsif input == 's' then
