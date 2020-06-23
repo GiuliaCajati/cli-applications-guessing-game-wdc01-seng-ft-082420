@@ -12,7 +12,7 @@ def get_user_input
 end
 
 def compare_input (number)
-  if input == 'h' then
+  if input == number then
     card_total += deal_card  
     elsif input == 's' then
     card_total 
