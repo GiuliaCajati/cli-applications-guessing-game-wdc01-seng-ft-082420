@@ -1,6 +1,6 @@
 # Code your solution here!
 def generate_number 
-  wining_number = rand(1...7)
+  winning_number = rand(1...7)
 end 
 
 def prompt_user
@@ -11,11 +11,11 @@ def get_user_input
   gets.chomp
 end
 
-def compare_input (number)
+def compare_input (input, winning_numbernumber)
   input = get_user_input
-  if input == number then
+  if input == winning_number then
     "You guessed the correct number!"
-    elsif input =! number then
+    elsif input =! winning_number then
       "Sorry! The computer guessed <number>."
       elsif input = "exit" then 
       "Goodbye!"
