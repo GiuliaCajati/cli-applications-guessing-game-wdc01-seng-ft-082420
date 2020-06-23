@@ -12,6 +12,7 @@ def get_user_input
 end
 
 def compare_input (number)
+  input = get_user_input
   if input == number then
     "You guessed the correct number!"
     elsif input =! number then
