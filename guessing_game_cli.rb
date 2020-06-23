@@ -13,9 +13,9 @@ end
 
 def compare_input (number)
   if input == number then
-    card_total += deal_card  
-    elsif input == 's' then
-    card_total 
+  
+    elsif input =! number then
+ 
       else
       invalid_command 
       prompt_user
