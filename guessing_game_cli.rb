@@ -13,7 +13,7 @@ end
 
 def compare_input (number)
   if input == number then
-  
+    "You guessed the correct number!"
     elsif input =! number then
  
       else
