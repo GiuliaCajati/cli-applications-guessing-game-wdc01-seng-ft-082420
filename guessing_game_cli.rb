@@ -1,21 +1,14 @@
 # Code your solution here!
 def run_guessing_game
-  rand(1...7)
-  puts "Guess number between 1 and 6"
+  rando = rand(6)+1
+  puts "Guess a number between 1 and 6:"
   input = gets.chomp
-   if input == winning_number then
-    "You guessed the correct number!"
-    elsif input =! winning_number then
-      "Sorry! The computer guessed <number>."
-      elsif input == "exit" then 
-      "Goodbye!"
-  end 
-end
-
-
-def runner
-  generate_number
-  prompt_user
-  compare_input
+  if input == rando.to_s
+    puts "You guessed the correct number!"
+  elsif input.downcase == "exit"
+    puts "Goodbye!"
+  else
+    puts "Sorry! The computer guessed #{rando}."
+  end
 end
    
