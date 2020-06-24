@@ -28,6 +28,5 @@ def runner
   generate_number
   prompt_user
   compare_input
-  end 
 end
    
