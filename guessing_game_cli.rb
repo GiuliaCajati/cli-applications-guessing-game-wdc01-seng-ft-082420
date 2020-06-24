@@ -22,3 +22,13 @@ def compare_input
       "Goodbye!"
   end 
 end
+
+
+def runner
+  generate_number
+  prompt_user
+  compare_input
+  end 
+    end_game(card_total)
+end
+   
