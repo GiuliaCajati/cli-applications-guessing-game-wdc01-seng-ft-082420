@@ -29,6 +29,5 @@ def runner
   prompt_user
   compare_input
   end 
-    end_game(card_total)
 end
    
