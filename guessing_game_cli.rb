@@ -18,7 +18,7 @@ def compare_input
     "You guessed the correct number!"
     elsif input =! winning_number then
       "Sorry! The computer guessed <number>."
-      elsif input = "exit" then 
+      elsif input == "exit" then 
       "Goodbye!"
   end 
 end
