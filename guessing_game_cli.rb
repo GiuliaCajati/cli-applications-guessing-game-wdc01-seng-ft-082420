@@ -1,15 +1,9 @@
 # Code your solution here!
 def run_guessing_game
   rand(1...7)
-
-
-def prompt_user
   puts "Guess number between 1 and 6"
-end
-
-def get_user_input
   gets.chomp
-end
+
 
 def compare_input
   input = get_user_input
