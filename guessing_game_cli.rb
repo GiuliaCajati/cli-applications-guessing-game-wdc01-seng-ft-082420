@@ -1,5 +1,5 @@
 # Code your solution here!
-def run
+def run_guessing
   rand(1...7)
 end 
 
